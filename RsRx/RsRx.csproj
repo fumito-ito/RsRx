@@ -65,6 +65,7 @@
     <Compile Include="EventArgs\HandEventArgs.cs" />
     <Compile Include="Extensions\BaseStreamExtension.cs" />
     <Compile Include="Enums\HandEventType.cs" />
+    <Compile Include="Extensions\GestureStreamExtension.cs" />
     <Compile Include="Extensions\HandEventStreamExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
