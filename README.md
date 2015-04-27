@@ -76,7 +76,7 @@ cam.Start();
 Install from [Nuget Gallery](https://www.nuget.org/packages/RsRx/)
 
 ```
-PM> Install-Package RxRx
+PM> Install-Package RsRx
 ```
 
 ## LICENSE
