@@ -2,6 +2,8 @@
 
 Reactive extensions for Intel Realsense SDK (C#) for Windows
 
+**This repository just only README!! please wait my contribution.**
+
 ## Description
 
 There was only painfull way to use Intel RealSense SDK (C#) for Windows.  
@@ -32,7 +34,7 @@ T.B.D.
 ICamera cam = Camera.Create();
 
 // hand event as observable
-cam.RightHand.MoveAsObservable().Subscribe( (s,a) => 
+cam.RightHand.MoveAsObservable().Subscribe( (s,a) =>
 {
     Console.WriteLine("-> x:{0} y:{1}", a.Position.Image.X, a.Position.Image.Y);
 });
@@ -63,7 +65,6 @@ cam.Speech.SpeechRecognizeAsObservable().Subscribe( (s,a) =>
 {
     Console.WriteLine("-> " + a.Sentence);
 });
-cam.Speech.EnableRecognition();
 
 
 // start sampling
