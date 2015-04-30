@@ -62,9 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\FaceEventType.cs" />
+    <Compile Include="EventArgs\FaceEventArgs.cs" />
     <Compile Include="EventArgs\HandEventArgs.cs" />
     <Compile Include="Extensions\BaseStreamExtension.cs" />
     <Compile Include="Enums\HandEventType.cs" />
+    <Compile Include="Extensions\FaceStreamExtension.cs" />
     <Compile Include="Extensions\GestureStreamExtension.cs" />
     <Compile Include="Extensions\HandEventStreamExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
