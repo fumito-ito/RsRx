@@ -8,7 +8,7 @@ namespace RsRx.Extensions
 {
     public static class PoseStreamExtensions
     {
-        public static IObservable<HandPoseEventArgs> PeaseAsObservable(this IPoseSensor poses)
+        public static IObservable<HandPoseEventArgs> PeaceAsObservable(this IPoseSensor poses)
         {
             var start = Observable.FromEventPattern<HandPoseEventArgs>(h => poses.PeaceBegin += h, h => poses.PeaceBegin -= h);
             var end = Observable.FromEventPattern<HandPoseEventArgs>(h => poses.PeaceEnd += h, h => poses.PeaceEnd -= h);
